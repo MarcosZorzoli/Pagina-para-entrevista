@@ -182,52 +182,6 @@ flex-grow: 0;
   color: #1A1A1A;
   }
 
-  .button2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 32px 24px;
-    gap: 10px;
-    
-    position: absolute;
-    width: 221px;
-    height: 60px;
-    left: 852px;
-    top: 1527px;
-    
-    background: #DD2025;
-  }
-
-  .button_Text2{
-    width: 135px;
-    height: 36px;
-    
-    font-family: 'Exo 2';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 36px;
-
-    color: #FFFFFF;
-    background: transparent;
-    border: 0px transparent;
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
-
-  .arrow{
-width: 24px;
-height: 24px;
-
-background: #FFFFFF;
-
-flex: none;
-order: 1;
-flex-grow: 0;
-  }
 
 #card1{
   left: 256px;
