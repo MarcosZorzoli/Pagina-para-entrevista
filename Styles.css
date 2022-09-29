@@ -1,0 +1,262 @@
+
+html,body{
+
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  font-family: 'Exo 2';
+  font-style: normal;
+}
+
+header{
+  width: 100%;
+  height: 153px;
+}
+
+#page{
+  position: relative;
+  width: 1925px;
+  height: 1638px;
+  
+  background: #EEEEEE;
+}
+
+#title{
+  position: absolute;
+  width: 135px;
+  height: 36px;
+  left: 890px;
+  top: 65px;
+  
+
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 36px;
+
+  text-align: center;
+  
+  color: #000000;
+  
+  mix-blend-mode: normal;
+}
+
+.container{
+width: 100%;
+max-width: 1408px;
+height:100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: auto;
+}
+
+.card{
+  display: block; 
+  float: left;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8px 16px 16px;
+  gap: 5px;
+
+  position: absolute;
+  width: hug;
+  height: 615px;
+
+  margin: auto;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 20px 50px rgba(18, 17, 39, 0.08);
+}
+
+.button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 6px;
+  width: 120px;
+  height: 30px;
+  margin-left: 4%;
+  margin-bottom: 1%;
+  background: #DD2025;
+  flex: none;
+  order: 0;
+  flex-grow: 0;  
+}
+
+.button_Text{
+  width: 130px;
+  height: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  background: transparent;
+  border: 0px transparent;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }
+
+  .image{
+  width: 412px;
+  height: 250px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  align-self: center;
+  }
+  
+.description{
+    margin-left: 4%;
+}
+
+.date{
+  width: 84px;
+  height: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #464646;
+  flex: none;
+  order: 2;
+  flex-grow: 0;  
+}
+
+.title_Post{
+width: 410px;
+height: 50 px;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+color: #1A1A1A;
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+.resume{
+  width: 410px;
+  height: 50px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #464646;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  }
+
+ .profile{
+  width: 147px;
+  height: 60px;
+  flex: none;
+  order: 5;
+  flex-grow: 0;
+  margin-left: 4%;
+  }
+  
+.picture{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 16px;
+  top: 561px;
+  }
+  
+.author{
+  position: absolute;
+  width: 79px;
+  height: 22px;
+  left: 84px;
+  top: 580px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  
+  color: #1A1A1A;
+  }
+
+  .button2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 24px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 221px;
+    height: 60px;
+    left: 852px;
+    top: 1527px;
+    
+    background: #DD2025;
+  }
+
+  .button_Text2{
+    width: 135px;
+    height: 36px;
+    
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+    background: transparent;
+    border: 0px transparent;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .arrow{
+width: 24px;
+height: 24px;
+
+background: #FFFFFF;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+  }
+
+#card1{
+  left: 256px;
+  top: 153px;
+
+}
+
+#card2{
+  left: 736px;
+  top: 153px;
+}
+
+#card3{
+  left: 1216px;
+  top: 153px;
+}
+
+#card4{
+  left: 256px;
+  top: 822px;
+
+}
+
+#card5{
+  left: 736px;
+  top: 822px; 
+}
+
+#card6{
+  left: 1216px;
+  top: 822px;  
+}
